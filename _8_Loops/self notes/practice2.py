@@ -71,11 +71,11 @@ print(f"The product of digits in {input_str} is: ")
 
 
 def digit_product(value):
-    result = 1
+    result_ = 1
     while value != 0:  # until value reaches zero
-        result = result * (value % 10)  # splitting and multiplying
+        result_ = result_ * (value % 10)  # splitting and multiplying
         value //= 10
-    return result
+    return result_
 
 
 print(digit_product(input_str))
@@ -104,11 +104,11 @@ print(f"Sum of digit of number {digit} is : ")
 
 
 def sum_digit(value):
-    result = 0
+    result_ = 0
     while value != 0:
-        result = result + (value % 10)
+        result_ = result_ + (value % 10)
         value //= 10
-    return result
+    return result_
 
 
 print(sum_digit(digit))
@@ -209,10 +209,10 @@ else:
 
 def sum_num(iterable):
     if iterable:
-        result = 0
+        result_ = 0
         for index, value in enumerate(iterable):
-            result = result + iterable[index]
-        return result
+            result_ = result_ + iterable[index]
+        return result_
     else:
         return "Invalid Numbers"
 
@@ -250,9 +250,48 @@ print("\n-------------------")
 """program to print numbers from 1 to 20 except multiple of 2 & 3"""
 x = 1
 y = 20
-
-for i in range(x,y+1):
+print("numbers from 1 to 20 except multiple of 2 & 3")
+for i in range(x, y + 1):
     if i % 3 == 0 or i % 2 == 0:
         continue
     else:
-        print(i)
+        print(i, end=" ")
+print("\n-------------------")
+
+"""Decimal to Binary with loops"""
+x = 45
+print(f"binary of {x} is ")
+z = 0
+list3 = []
+result = str()
+while x > 0:
+    z = x % 2
+    list3.append(z)
+    x //= 2
+list3 = list3[::-1]
+for item in list3:
+    result += str(item)
+result = int(result)
+print(f"{result}")
+print("-------------------")
+
+"""Palindrome"""
+x = 1221
+
+
+def check_palindrome(x_):
+    result_ = []
+    x_ = str(x_)
+    for i_, char in enumerate(x_):
+        if x_[i_] == x_[-1 - i_]:
+            result_.append(1)
+        else:
+            result_.append(2)
+    for i_ in result_:
+        if i_ != 1:
+            return False
+    else:
+        return True
+
+
+print(f"The No {x} is a palindrome: {check_palindrome(x)}")
