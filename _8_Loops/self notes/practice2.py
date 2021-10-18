@@ -295,3 +295,4 @@ def check_palindrome(x_):
 
 
 print(f"The No {x} is a palindrome: {check_palindrome(x)}")
+
