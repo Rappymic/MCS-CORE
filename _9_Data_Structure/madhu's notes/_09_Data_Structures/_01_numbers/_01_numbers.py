@@ -1,5 +1,4 @@
-
-''''''
+""""""
 '''
 # DATA TYPES
 numbers  - individual values
@@ -22,12 +21,11 @@ float
 complex : 3i+4j
 '''
 # boolean
-True
-False
-
+var = True
+var = False
 
 x = 10
-print(x)   # f(x)
+print(x)  # f(x)
 print("Value is :", x)
 
 x = 10 + 20
@@ -43,11 +41,11 @@ x = 10 + 20
 Step 1: Receive employee id 
 Step 2: Print it
 '''
-     # Hard coding the value :: Static way
+# Hard coding the value :: Static way
 e_id = 4325  # emp_id empid eid e_id   st_rno strno prod_id
 print("Employee id : ", e_id)
 
-     # Receive the value dynamically
+# Receive the value dynamically
 e_id = input("Enter your employee id :")
 print("Employee id : ", e_id)
 
@@ -78,6 +76,3 @@ eid = 100
 print("Employee id and it address : ", eid, id(eid))
 msg = 'Hello World'
 print("Message is : ", msg, type(msg), id(msg))
-
-
-
