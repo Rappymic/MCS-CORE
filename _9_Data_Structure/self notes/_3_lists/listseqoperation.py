@@ -1,5 +1,5 @@
 list1 = [1, 2, 3, 4, 5, 6]
-list2 = [7, 8, 9, 10, 11, 12]
+list2 = [7, 8, 9, 10, 12.5, 12]
 print("\n")
 print("Addition".center(40, "-"))
 print(f"list1 is {list1}\nlist2 is {list2}")
@@ -15,9 +15,15 @@ print("Membership with slicing".center(40, "-"))
 print(f"is 1 in {list1} from index 2:", 1 in list1[2:])
 list3 = list1[:]
 
-print("Appending list inside a list".center(40,"-"))
+print("Appending list inside a list".center(40, "-"))
 print(f"appending {list3} and {list2}")
 list3.append(list2)
 
 print(list3)
 
+print("Length of a list".center(40, "-"))
+print(f"the length of {list3} is : ",len(list3))
+print("Max value of the List".center(40, "-"))
+print(f"Max value inside {list2} is :", max(list2))
+print("Min value of the List".center(40, "-"))
+print(f"Min value inside {list2} is :", min(list2))
