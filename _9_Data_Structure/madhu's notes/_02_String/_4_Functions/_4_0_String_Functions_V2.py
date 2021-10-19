@@ -247,11 +247,11 @@ print("HELLO is upper               :", str4.isupper())
 print("-------------------------------------------------------------------------------------")
 
 
-# 18. join() : joins strings with mentioned separator
+# 18. join() : joins _2_strings with mentioned separator
 sep_str = "****"
 seq1 = ["The", "sky", "is", "Blue"]
 print("------------- 18. join() -----------------")
-print('join() : joins strings with mentioned separator')
+print('join() : joins _2_strings with mentioned separator')
 print("join [The, sky, is, Blue] with ****: ", sep_str.join(seq1))
 print("-------------------------------------------------------------------------------------")
 
@@ -373,11 +373,11 @@ print("rstrip of * in ***Wow! what a great move**    :", str6.rstrip("*"))
 print("-------------------------------------------------------------------------------------")
 
 
-# 31. split() : separates with spaces into lists
+# 31. split() : separates with spaces into _3_lists
 str1 = "hellow world"
 str5 = "    The dress looks fab  "
 print("------------- 31. split() -----------------")
-print('split() : separates with spaces into lists ')
+print('split() : separates with spaces into _3_lists ')
 print("Original String:", str1)
 print("Splitting chesapeake ripper:", str1.split())
 print("-----------------------------------------------")
@@ -387,11 +387,11 @@ print("-------------------------------------------------------------------------
 
 
 
-# 32. splitlines() : splits at line breaks & returns lists
+# 32. splitlines() : splits at line breaks & returns _3_lists
 str6 = "***Wow! what a great move**"
 str7 = "Scary \n dream\n haunts him every \n night"
 print("------------- 32. splitlines() -----------------")
-print('splitlines() : splits at line breaks & returns lists ')
+print('splitlines() : splits at line breaks & returns _3_lists ')
 print("Original String:", str6)
 print("Splitting lines for the original string is:", str6.splitlines())
 print("-----------------------------------------------")
