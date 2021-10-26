@@ -9,7 +9,7 @@ def factorial(value):
 
 def factorial_iter(val):
     result = 1
-    if val >=0:
+    if val >= 0:
         for i in range(1, val+1):
             result = result*i
         return result
