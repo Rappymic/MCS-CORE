@@ -1,4 +1,6 @@
 def check_prime(value):
+    if value == 4:
+        return False
     if value <= 0:
         return False
     for i in range(2,value // 2):
