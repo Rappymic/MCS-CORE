@@ -256,7 +256,7 @@ count = 1
 
 for key, value in ticket_info.items():
     print(f"{count}. {key} ".ljust(30, "-"), value)
-    count+=1
+    count += 1
 
 index_list = []
 
@@ -267,4 +267,17 @@ print("Keys with list as values".center(80, "-"))
 count = 1
 for item in index_list:
     print(f"{count}. ", item)
-    count+=1
+    count += 1
+index_list.clear()
+count = 1
+print("keys with dictionary as values".center(80, "-"))
+for key, values in ticket_info.items():
+    if type(values) is dict:
+        index_list.append(key)
+
+for item in index_list:
+    print(f"{count}. ", item)
+    count += 1
+
+print('accessing values inside nested dictionary'.center(80, "-"))
+print(ticket_info["details"]["requested_eta"])
