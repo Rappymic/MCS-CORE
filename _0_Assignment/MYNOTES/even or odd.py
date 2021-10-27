@@ -1,6 +1,6 @@
 """Print even and odd no. between given No."""
 
-def check_prime(num):
+def check_even(num):
     if num % 2 == 0 and num > 0:
         return True
     else:
@@ -19,7 +19,7 @@ while True:
 list_even = []
 list_odd = []
 for number in range(start_num, end_num):
-    if check_prime(number) is True:
+    if check_even(number) is True:
         list_even.append(number)
     else:
         if number > 0:
