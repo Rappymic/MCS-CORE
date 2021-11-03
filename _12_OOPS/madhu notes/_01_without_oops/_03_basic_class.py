@@ -1,6 +1,7 @@
 # OOPs concepts
 '''
 Class Object
+-------------------
 Encapsulation
 Abstraction
 Inheritance
@@ -11,8 +12,8 @@ print(x, type(x), id(x))
 
 
 '''
-# STATE    - data structures  - fields
-# BEHAVIOR - functions        - methods
+# STATE    - data structures  - Fields
+# BEHAVIOR - functions        - Methods
 
 variables, value                 #   x = 10
 parameters, arguments            # functions  
@@ -33,7 +34,7 @@ e_sal = 10000
     # BEHAVIOR
 def get_edata(eid, name, sal):
     sal = sal + sal*10/100
-    print("Employee after Hike :",eid," - ",name," - ",sal)
+    print("Employee after Hike :", eid, " - ", name, " - ", sal)
 
 get_edata(emp_id, emp_name, e_sal)
 
@@ -42,19 +43,36 @@ print("-----With oops concepts--------")
 class Employee:
     # STATE   # fields
     def __init__(self, eid, ename, sal):  # parameters
-        self.eid = eid      # RHS --> Local variables
-        self.ename = ename  # LHS --> Instance variables
+        self.eid = eid      # RHS --> Local variables eid,name,sal
+        self.ename = ename  # LHS --> Instance variables *  self.eid, self.ename,self.sal
         self.sal = sal      # self -> instance/object/ref variable
 
     # BEHAVIOR  # methods
-    def update_sal(self):
+    def update_sal(self, rating):
         self.sal = self.sal + self.sal*10/100
-        print("Employee information :", self.eid, " - ", self.ename, " - ", self.sal)
+        print("Employee information :", self.eid, " - ", self.sal)
 
 
 # object creation
+
 madhu = Employee(100, 'Madhu Nettem', 10000)  # madhu - object*/reference/instance  RHS - Object creation
 madhu.update_sal()
+
+
+
+'''
+UI ---->   Python  ----> DATABASE
+
+# DATABASE 1L
+data = 'select * from employee'
+data = [{'eid':101,'name':'xyz','sal':2000,'rating':4},{},{}]
+for record in data:
+    emp = Employee(record['eid'], record['ename'],record['sal'])
+    emp.update_sal(record['rating'])
+    # SAVE to database 
+'''
+abhiram = Employee(101, 'Abhiram Naren,', 15000)
+abhiram.update_sal()
 
 '''
         x = 10 
@@ -65,10 +83,10 @@ object    = object creation
 ref. variable  
 
 '''
-kiran = Employee(101, 'Kiran Kumar', 15000)
+kiran = Employee(104, 'Kiran Kumar', 15000)
 kiran.update_sal()
 
-prakash = Employee(102, 'Prakash Kumar', 20000)
+prakash = Employee(106, 'Prakash Kumar', 20000)
 prakash.update_sal()
 
 # declaration     - int x
