@@ -1,5 +1,6 @@
 import requests
 import json
+import csv
 
 url = "https://www.gov.uk/bank-holidays.json"
 file = requests.get(url)
@@ -20,3 +21,13 @@ years.sort()
 print(list_country[0])
 for i in years:
     print(f"The holidays in {i} is {string1.count(i)}")
+
+
+fname = []
+for keys in event_list[0]:
+    fname.append(keys)
+
+with open("export.csv", "w") as file:
+    obj = csv.DictWriter(file, fieldnames=fname)
+    obj.writeheader()
+    obj.writerows(event_list)
