@@ -319,28 +319,3 @@ from calendar import *
 y = int(input("enter the year: "))
 print(calendar(y, w=3, l=1, c=6, m=3))
 '''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
