@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+        <!--<p style="width: 70%; height: 20%; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; color: darkblue;">Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). Begin your journey with VS Code with these introductory videos.
+		</P> -->
+		
+		<h1 style="font-size: 3em;">H1 Heading Tag</h1><br/>
+		<h2>H2 Heading Tag</h2>
+		<h3>H3 Heading Tag</h3>
+		<h4>H4 Heading Tag</h4>
+		<h5>H5 Heading Tag</h5>
+		<h6>H6 Heading Tag</h6>
+
+		<!-- Formatting tags-->
+		<b><i>BOLD Tag Example</i></b>
+		<p>A Leader in the <strong>2020</strong> Gartner Magic Quadrant for Meeting Solutions</p><strong>Strong Tag Example</strong>
+		<del>Deleted Content</del>
+
+		<b>2<sup>2</sup></b>
+
+		<b>2<sub>2</sub></b>
+		
+		<!--Quotation Tags-->
+		<address style="font-style: normal">Q Tag Example</address>
+
+		<br/>
+		<p style="color: #ff0081 ;">Learning Html Is Interseted</p>
+
+		
+
+</html>

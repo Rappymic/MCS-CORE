@@ -1,0 +1,49 @@
+<head>
+    <title>Employee Data</title>
+    <link rel="icon" href="tiger.svg" type="image/svg">
+    <style>
+        table, th, tr, td{
+            border: 2px solid black; 
+            border-collapse: collapse; 
+            padding: 10px 20px 30px 40px;
+            padding-left: 10px;
+            margin: 20px 20px 20px 20px;
+            margin-top: 20%;
+        }
+
+        th{
+            color: red;
+        }
+
+    </style>
+</head>
+<table>
+    <thead>    
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Full Name</th>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>Perla</td>
+        <td>Reddy</td>
+        <td>Perla Reddy</td>
+    </tr>
+    <tr>
+        <td>Perla</td>
+        <td>Reddy</td>
+        <td>Perla Reddy</td>
+    </tr>
+    <tr>
+        <td>Perla</td>
+        <td>Reddy</td>
+        <td>Perla Reddy</td>
+    </tr>
+</tbody>
+<tfoot>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Full Name</th>
+</tfoot>
+</table>

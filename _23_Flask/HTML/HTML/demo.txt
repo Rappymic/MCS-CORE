@@ -1,0 +1,25 @@
+
+
+
+var a = " Reddy Reddy Java Html Full Stack ";
+
+var arr = [12,22,33];
+var arr1 = new Array();
+arr1[0] = "Reddy";
+
+var b = "Perla";
+
+document.write(a+" "+b);
+//fun1(a, b);
+function fun1(a , b){
+   
+    var str = new String();
+    
+    var strArr = a.split(' ');
+    
+    for(i = 0; i<strArr.length; i++){
+        console.log(strArr[i].trim());
+        //break;
+        //continue;
+    }
+}

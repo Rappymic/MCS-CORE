@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<p>Hi</P>
+		
+		<h1>H1 Heading Tag
+		<h2>H2 Heading Tag</h2>
+		<h3>H3 Heading Tag</h3>
+		<h4>H4 Heading Tag</h4>
+		<h5>H5 Heading Tag</h5>
+		<h6>H6 Heading Tag</h6>
+	</body>
+</html>

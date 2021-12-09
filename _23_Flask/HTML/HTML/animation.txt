@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+             .div{
+                width: 50%;
+                height: 100px;
+                background-color: red;
+                /*animation-name: demo1;*/
+                animation-duration: 5s;
+                position: relative;
+            }
+
+            @keyframes demo1{
+                0% {background-color: red; left: 0px; top: 0px;}
+                25% {background-color: skyblue; left: 200px; top: 0px;}
+                50% {background-color: lawngreen; right: 200px; top: 300px;}
+                75% {background-color: lightsalmon; right: 0px; top: 300px;}
+                100% {background-color: red; left: 0px;top:0px;}
+            }
+
+            .tooltiptextdemo{
+                visibility: hidden;
+
+            }
+
+            .tooltipdemo .tooltiptextdemo{
+                border-radius: 4px;
+                padding: 4px 0px;
+                text-align: center;
+                color: red;
+                background-color: black;
+            }
+
+            .tooltipdemo:hover .tooltiptextdemo{
+                visibility: visible;
+            }
+           
+        </style>
+    </head>
+
+<body>
+     <div class="div">
+         <div class="tooltipdemo">Hello
+             <span class="tooltiptextdemo">Hello is good for calling people</span>
+        </div>
+    </div>
+</body>
+</html>

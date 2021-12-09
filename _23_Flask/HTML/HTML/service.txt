@@ -1,0 +1,12 @@
+
+    <link rel="stylesheet" href="css/basic.css">
+
+<div id="div1">
+    Hi
+</div>
+<div id="div2">Hello</div>
+
+<div id="div3">
+    Wellcome
+</div>
+<div  id="div4">Bye</div>

@@ -1,0 +1,101 @@
+<head>
+    <title>Employee Data</title>
+    <link rel="icon" href="tiger.svg" type="image/svg">
+    <style>
+        *{
+            color: darkblue;
+        }
+      ul{
+        list-style-type: decimal;
+        vertical-align: middle;
+       
+      }
+
+      ul.ul_liC{
+          color: red;
+      }
+
+      .ul1{
+        list-style-type: lower-roman; 
+      }
+
+      #basicIds{
+        list-style-type: circle; 
+      }
+
+      .navHori{
+        margin: 0;
+        padding: 0;
+        display: inline;
+        list-style-type: none;
+      }
+
+      .liCl{
+        padding: 10px 10px 10px;
+        float: right;
+        display: inline;
+      }
+
+      a:hover{
+        background-color: darkorange;
+        color:lavender;
+      }
+      
+    </style>
+</head>
+<ul class="navHori">
+    <li class="liCl">
+        <a href="index.html">Home</a>
+    </li>
+    <li class="liCl">
+        <a  href="about-us.html">About Us</a>
+    </li>
+    <li class="liCl">
+        <a  href="service.html">Services</a>
+    </li> 
+</ul>
+
+<ul class="ul_liC">
+    <li>Java
+        <ul class="ul1">
+            <li>Basics
+                <ul id="basicIds">
+                    <li>What is Java?</li>   
+                </ul>
+            </li>
+        </ul>
+        
+
+    </li>
+    
+    <li>Python</li>
+    <li>HTML</li>
+</ul>
+
+<ul>
+    <li>Java
+        <ul class="ul1">
+            <li>Basics
+                <ul id="basicIds">
+                    <li>What is Java?</li>   
+                </ul>
+            </li>
+        </ul>
+        
+
+    </li>
+    
+    <li>Python</li>
+    <li>HTML</li>
+</ul>
+
+<dl>
+    <dt>Java</dt>
+    <dd>Java is Programming lang</dd>
+
+</dl>
+
+<ol type="i">
+    <li>DOG</li>
+    <li>TIGER</li>
+</ol>

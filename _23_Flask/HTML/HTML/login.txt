@@ -1,0 +1,16 @@
+<form action="index.html" name="login" method="post" onclick="return valid()">
+    User Name: <input type="text" name="userName" id="usernameId">
+    Password: <input type = "password" name="password" id="password">
+    <input type="submit" value="Login">
+</form>
+
+<script>
+
+    function valid(){
+        var uN = document.login.userName.value;
+        
+        var userName = document.getElementById("usernameId").value;
+        var password = document.getElementById("password").value;
+        console.log(userName+" "+password);
+    }
+</script>

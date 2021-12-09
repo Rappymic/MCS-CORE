@@ -8,7 +8,11 @@ list1 = [{'fname':'Venkat','lname':'Reddy','id':43},{'fname':'Satish','lname':'K
 with sqlite3.connect("newdb.db") as conn:
     a_cursor = conn.cursor()
     # a_cursor.execute("CREATE TABLE details(fname TEXT,lname TEXT,id INTEGER) ")
-    # for index, values in enumerate(list1):
-    #     insert_details(a_cursor, table_name='details', fname=values['fname'], lname=values['lname'], identity=values['id'])
-    a_cursor.execute("ALTER TABLE details DROP salary")
+    for index, values in enumerate(list1):
+        insert_details(a_cursor, table_name='details', fname=values['fname'], lname=values['lname'], identity=values['id'])
+
+    conn.commit()
+    a_cursor.execute("UPDATE details SET rowid = 2 WHERE rowid = 5")
+    a_cursor.execute("SELECT rowid,* FROM details")
+    print(a_cursor.fetchall())
     conn.commit()
