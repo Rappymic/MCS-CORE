@@ -1,0 +1,103 @@
+1) What is Python? What are the benefits of using Python?
+Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasises code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+
+
+
+
+
+
+
+
+
+2) What is PEP 8?
+3) What is pickling and unpickling?
+4) How is Python interpreted?
+5) How is memory managed in Python?
+6) What are the tools that help to find bugs or perform the static analysis?
+7) What are Python decorators?
+8) What is the difference between list and tuple?
+9) How are arguments passed by value or by reference?
+10) What is Dict and List comprehensions are?
+11) What are built-in type does python provides?
+12) Explain namespace in Python
+13) What is lambda in Python?
+14) Why lambda forms in python do not have statements?
+15) Explain pass in Python
+16) In Python what are iterators?
+17) What is the unittest in Python?
+18) Explain slicing in Python?
+19) What are generators in Python?
+20) What is docstring in Python?
+21) How can you copy an object in Python?
+22) What is negative index in Python?
+23) How can you convert a number to a string?
+24) What is the difference between xrange and range?
+25) What is module and package in Python?
+26) What are the rules for local and global variables in Python?
+27) How can you share global variables across modules?
+28) Explain how can you make a Python Script executable on Unix?
+29) Explain how to delete a file in Python?
+30) Explain how can you generate random numbers in Python?
+31) How can you access a module written in Python from C?
+32) What is the use of // operator in Python?
+33) Mention five benefits of using Python
+34) Mention the use of the split function in Python
+35) Explain Flask and its benefits
+36) What is the difference between Django, Pyramid, and Flask?
+37) What is Flask-WTF and what are their features?
+38) Explain what is the common way for the Flask script to work?
+39) Explain how you can access sessions in Flask?
+40) Is Flask an MVC model, and if yes give an example showing MVC pattern for your application?
+41) Explain database connection in Python Flask?
+42) If you have multiple Memcache servers, and one of them fails that contain data, will it try to get them?
+43) Explain how you can minimize the Memcached server outages in your Python Development?
+44) Explain what is Dogpile effect? How can you prevent this effect?
+45) Explain how memcached should not be used in your Python project?
+46) What is Python If Statement?
+47) Explain While loop in Python with example
+48) What is enumerate() in Python?
+49) How can you use for loop to repeat the same statement over and again?
+50) What is Tuple Matching in Python?
+51) Explain Dictionary in Python with example
+52) How can you copy the entire dictionary to a new dictionary?
+53) How can you Update Python Dictionary?
+54) Give example of dictionary items() method
+55) How can you sort elements in Python dictionary?
+56) Give an example of Dictionary len() and Python List cmp() method
+57) What are all dictionary methods:
+58) Explain Arithmetic operators with example
+59) Give example of logical operators
+60) Explain membership operators with example
+61) Write code to demonstrate operator precedence in Python:
+62) Explain arrays in Pythons with example
+63) How can you access array elements?
+64) How can you insert elements in array?
+65) How can you delete elements in array?
+66) How can you search and get the index of a value in an array?
+67) How can you reverse array in Python?
+68) Give example to convert array to Unicode
+69) Give an example of a class in Python
+70) Explain Inheritance with example
+71) Give example of Python constructors
+72) How can you access values in string?
+73) Explain all string operators with example
+74) Give example of sleep() function in Python
+75) What is timer method in Python?
+76) Give example of calendar class
+77) Explain Python ZIP file with example
+78) What are the common examples of exceptions in Python?
+79) Explain important Python errors
+80) Explain JSON dumps() in Python with example
+81) Explain in detail JSON to Python (Decoding) with example
+82) Write code for encode() method
+84) Write a Python code for matrix subtraction
+85) Write code for matrix multiplication
+86) Explain slicing of matrix with example
+87) Write Python code to find average via loop
+88) Write a code for list count
+89) How can you count duplicate elements in a given list?
+90) Write a code to get index of an element in a list using for loop
+91) Give an example of Python type()
+92) How can you print without a newline in Python?
+93) How to print the star(*) pattern without newline and space?
+
