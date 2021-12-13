@@ -19,7 +19,7 @@ def home():
 def test(no: int):
     return {"data":f"{no}"}
 
-@app.post('/add_blog')
+@app.put('/add_blog')
 def add_blog(data : Data):
     db.create_blog(data.title, data.body)
     return {'data': 'created'}
