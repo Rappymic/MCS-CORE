@@ -1,5 +1,8 @@
-lists = [[1,4,5],[1,3,4],[2,6]]
+lists = [[]]
+list1 = []
 
-list1 = [lists[0].extend(i) for i in lists[1:]]
-
+for i in lists:
+    list1.extend(i)
+    # elif i != None:
+    #
 print(list1)
