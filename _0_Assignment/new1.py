@@ -1,3 +1,7 @@
+import sys
+
+sys.setrecursionlimit(500000)
+
 def arr(targetsum, numbers: list, memo={}):
     numbers.sort(reverse=True)
     if targetsum in memo:
@@ -16,4 +20,22 @@ def arr(targetsum, numbers: list, memo={}):
         memo[targetsum] = -1
         return -1
 
-print(arr(11,[4,5]))
+
+tar = 5000
+
+num = [4,5]
+
+def cansum(target, num: list):
+    list1 = [False for _ in range(target + 1)]
+    list1[0] = True
+    for index, value in enumerate(list1):
+        if value == True:
+            for j in num:
+                if index + j <= target:
+                    list1[index + j] = True
+    # print(list1)
+    return list1[target]
+
+print(cansum(tar, num))
+
+print(arr(5000,[4,5]))
