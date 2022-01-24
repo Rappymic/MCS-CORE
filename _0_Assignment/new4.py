@@ -18,5 +18,5 @@ def allconstruc(target, wordbank, memo={}):
 
 # print(allconstruc('abcdef', ['ab', 'abc', 'cd', 'def', 'abcd', 'ef']))
 
-print(allconstruc('eeeeeeeef', ['ka','rt' ,'i' ,'k', 'ee', 'eeee', 'eee', 'eeeeeee']))
+print(allconstruc('eeeeeeee', ['ka','rt' ,'i' ,'k', 'ee', 'eeee', 'eee', 'eeeeeee']))
 
