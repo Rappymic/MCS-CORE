@@ -18,4 +18,4 @@ def arr(targetsum, numbers: list, memo={}):
         return short_comb
 
 
-print(arr(800, [201, 301, 55, 12]))
+print(arr(9999, [201, 301, 55, 12]))

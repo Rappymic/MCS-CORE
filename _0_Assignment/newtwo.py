@@ -17,7 +17,7 @@ def rec_best_sum(numbers: list, target: int, memo = {}):
         memo[target] = total
         return total
 
-numbers = [2,3,6, 7]
-target = 14
+numbers = [1,2,3]
+target = 26
 
 print(rec_best_sum(numbers, target))

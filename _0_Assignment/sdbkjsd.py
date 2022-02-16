@@ -30,4 +30,4 @@ def allconstruc(target, numbers):
     return len(temp)
 
 
-print(allconstruc(8, [1,2,3]))
+print(allconstruc(26, [1,2,3]))
