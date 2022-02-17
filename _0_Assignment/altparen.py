@@ -1,5 +1,5 @@
 from itertools import permutations
-n = 5
+n = 10
 input = ("( " * n) + (") " * n)
 in_list = [f for f in input.split(" ") if f]
 possible_combinations = list(permutations(in_list, n*2))
