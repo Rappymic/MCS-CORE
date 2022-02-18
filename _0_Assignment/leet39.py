@@ -16,7 +16,5 @@ class Solution:
                 pass
             del result[-1]
 
-
 dig = '2349'
-
 print(Solution.letterCombinations(dig))
