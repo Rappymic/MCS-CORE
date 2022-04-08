@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+ <body>
+   <canvas id="canvas" width="400" height="400">
+   <h3>Your Browser Does Not Support This Page.  Please Update To Latest Version.</h3>
+   </canvas>
+   <script type="application/javascript" src="script.js">
+   </script>
+ </body>
+</html>
+
+canvas  { 
+    border: 1px solid black; 
+    }
+
+    // JavaScript For Canvas 
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    
+    var Square = function (x, y, width, height) {
+            this.x = x;
+            this.y = y;
+            this.width = width;
+            this.height = height;
+    };
+    
+    Square.prototype.growBy = function(amount) {
+            this.height += amount;
+            console.log("growing!");    
+    };
+    
+    var DrawSquare = function (x, y, width, height) {
+                Square.call(this, x, y, width, height);
+    };
+    
+    DrawSquare.prototype = Object.create(Square.prototype);
+    
+    DrawSquare.prototype.draw = function (color) {
+                ctx.clearRect(this.x,this.y,this.width,this.height);
+                ctx.fillStyle = color;
+                ctx.fillRect (this.x, this.y, this.width,this.height);
+    };
+    
+    var squareOne = new DrawSquare(0,375,25,25);
+    var squareTwo = new DrawSquare(40, 375, 25, 25);
+    var squareThree = new DrawSquare(80,375,25, 25);
+    
+    
+    
+    
+    var drawScene = function() {
+        squareOne.draw("rgb(243, 83, 23)");
+        squareTwo.draw("rgb(163, 187, 81)");
+        squareThree.draw("rgb(38, 154, 214)");
+    
+    };
+    
+    document.getElementById("canvas").onclick = function() {
+        console.log("hello!");
+        squareOne.growBy(10);
+        drawScene();
+    };
+    
+    drawScene();
